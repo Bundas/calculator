@@ -8,6 +8,12 @@ namespace Calculator.Operators
 {
     public static class OperatorsHelper
     {
+        /// <summary>
+        /// This method compares operators.
+        /// </summary>
+        /// <param name="o1"></param>
+        /// <param name="o2"></param>
+        /// <returns>1 if first operator is bigger or equal to the second one</returns>
         public static int Compare(IBaseOperator o1, IBaseOperator o2)
         {
             if (o1.OperatorNotationOutput.Equals(o2.OperatorNotationOutput) &&
