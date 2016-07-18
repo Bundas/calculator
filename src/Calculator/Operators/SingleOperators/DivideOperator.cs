@@ -18,7 +18,7 @@ namespace Calculator.Operators.SingleOperators
         public DivideOperator()
         {
             Precedence = 24;
-            OperatorNotationInput = "/";
+            OperatorNotationOutput = OperatorNotationInput = "/";
             OperatorAssociativity = OperatorAssociativity.Left;
         }
     }
