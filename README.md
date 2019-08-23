@@ -3,7 +3,7 @@
 The app parses math expressions and calculates results. It's easy to extend. Just create new operator which implements either `IBinaryOperator` or `IUnaryOperator` interface located in `Calculator.Operators.Interfaces`.
 
 <h3>Example binary operator:</h3>
-```cs
+```
 public sealed class AddOperator : IBinaryOperator
 {
     public int Precedence { get; set; }
@@ -26,7 +26,7 @@ public sealed class AddOperator : IBinaryOperator
 ```
 
 <h3>Example unary operator:</h3>
-```cs
+```
 public sealed class DecadicLogarithmOperator : IUnaryOperator
 {
     public int Precedence { get; set; }
